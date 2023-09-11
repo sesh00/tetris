@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+    <title>tetris</title>
+</head>
+<body>
+<div class="welcome">
+    <h1>
+       TETRIS
+    </h1>
+    <form> <!--action="index.html" method="get" -->
+        <label>
+            <input placeholder="Username"><br>
+        </label>
+        <input type="submit" value="Play" class="button">
+    </form>
+
+    <table class="table">
+        <caption>High Scores</caption>
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Username</th>
+            <th>Score</th>
+        </tr>
+        </thead>
+        <tbody id="scoreTable">
+        </tbody>
+    </table>
+    <script src="table.js"></script>
+</div>
+</body>
+</html>
+

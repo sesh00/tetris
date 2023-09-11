@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
+body {
+    /*background-image: url(files/background2.jpg);*/
+    background-color: black;
+    background-size: 100%;
+
+}
+
+
+.welcome{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
+    margin-top: 8%;
+    padding:10px;
+    border-radius:30px;
+    font-size: 20px;
+    color: #404142;
+    background-color: white;
+    font-family: 'Common Pixel', sans-serif;
+}
+.table {
+    font-family: 'Common Pixel', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+
+}
+
+.table {
+    width: 80%;
+}
+
+.table th {
+    width: 30%;
+}
+input {
+    width:60%;
+    padding: 10px;
+    border-radius:20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Common Pixel', sans-serif;
+}
+.button {
+    width:40%;
+    padding: 10px;
+    border-radius:20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #404142;
+    background-color: white;
+    font-family: 'Common Pixel', sans-serif;
+
+}

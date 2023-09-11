@@ -1,0 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+#score, #player, #level{
+    color : white;
+    font-size: 18px;
+    font-family: 'Common Pixel', sans-serif;
+}

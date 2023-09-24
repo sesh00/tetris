@@ -1,7 +1,6 @@
 const form = document.querySelector('form');
 const input = form.querySelector('input');
 document.addEventListener('DOMContentLoaded', function () {
-
     form.addEventListener('submit', function (e) {
         e.preventDefault();
         const username = input.value;

@@ -1,6 +1,6 @@
+const form = document.querySelector('form');
+const input = form.querySelector('input');
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.querySelector('form');
-    const input = form.querySelector('input');
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
@@ -9,6 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'index.html';
     });
 });
+
+let savedUsername = localStorage.getItem('username');
+
+if (!savedUsername || savedUsername.length === 0) {
+    input.value = "";
+} else {
+    input.value = savedUsername;
+}
 
 function updateTable() {
 

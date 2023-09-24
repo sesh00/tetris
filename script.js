@@ -255,6 +255,9 @@ class TetrisGame {
     handleKeyPress(event) {
         const key = event.key;
         switch (key) {
+            case 'Enter':
+                while(this.moveCurrentTetrominoDown());
+                break;
             case 'ArrowUp':
                 this.rotateCurrentTetromino();
                 break;
